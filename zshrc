@@ -73,3 +73,10 @@ function r() {
 }
 
 alias rs="ls $REPOSITORY"
+
+autoload -Uz vcs_info
+precmd() { vcs_info }
+zstyle ':vcs_info:git:*' formats '%F{green} (%b)%f'
+
+setopt PROMPT_SUBST
+PROMPT='%F{cyan}%m%f %F{red}%1~%f${vcs_info_msg_0_} # '
