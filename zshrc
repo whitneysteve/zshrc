@@ -7,6 +7,8 @@ function check() {
   fi
 }
 
+alias reset="source ~/.zshrc"
+
 #Formatting
 alias sut="cat << EOM |tr -d \"[:blank:]\" |  sort | uniq"
 alias cls="clear && printf '\e[3J'"
