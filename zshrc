@@ -9,6 +9,7 @@ function check() {
 
 #Formatting
 alias sut="cat << EOM |tr -d \"[:blank:]\" |  sort | uniq"
+alias cls="clear && printf '\e[3J'"
 
 # Git
 alias ga="git add"
