@@ -86,6 +86,7 @@ function dr() {
 alias reload="source ~/.zshrc"
 alias ze="vi $REPOSITORY/zshrc/zshrc"
 alias home="ssh steve@home.local"
+alias tealc="ssh tealc.local"
 
 alias rs="ls $REPOSITORY"
 
