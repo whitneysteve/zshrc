@@ -85,6 +85,7 @@ function dr() {
 # Utils
 alias reload="source ~/.zshrc"
 alias ze="vi $REPOSITORY/zshrc/zshrc"
+alias home="ssh steve@home.local"
 
 alias rs="ls $REPOSITORY"
 
