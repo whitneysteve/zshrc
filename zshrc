@@ -75,6 +75,17 @@ function r() {
   cd "$REPOSITORY/$1"
 }
 
+# Docker
+alias d="cd ~/Docker"
+
+function dr() {
+  docker restart $1
+}
+
+# Utils
+alias reload="source ~/.zshrc"
+alias ze="vi $REPOSITORY/zshrc/zshrc"
+
 alias rs="ls $REPOSITORY"
 
 autoload -Uz vcs_info
